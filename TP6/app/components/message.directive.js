@@ -9,7 +9,8 @@
         return {
             restrict : 'E',
             scope: {
-                text: '='
+                text: '=',
+                type: '='
             },
             controller : messageDirectiveController,
             templateUrl : 'app/components/message.html',

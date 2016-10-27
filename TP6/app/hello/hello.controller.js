@@ -7,6 +7,22 @@
 
     function helloController($filter) {
         var vm = this;
+
+        vm.types = [
+            {
+                name: 'INFO',
+                style: {'color':'blue'}
+            },
+            {
+                name: 'DANGER',
+                style: {'color':'red'}
+            },
+            {
+                name: 'SUCCES',
+                style: {'color':'green'}
+            }
+        ];
+        vm.selectedType = vm.types[0];
     }
 
 })();
