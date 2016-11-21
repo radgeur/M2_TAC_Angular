@@ -7,7 +7,7 @@
 
     helloController.$inject = ['math', 'restData'];
 
-    function helloController(math) {
+    function helloController(math, restData) {
         var vm = this;
 
         vm.operand1 = 0;
